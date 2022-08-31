@@ -43,7 +43,6 @@ const Navbar = () => {
   function preventDefault(event) {
     event.stopPropagation();
     event.preventDefault();
-    console.log(event);
   }
   useEffect(() => {
     animation();
