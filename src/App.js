@@ -27,7 +27,7 @@ const App = () => {
           <Route path="/" exact>
             <Range />
           </Route>
-          <Route path="/BoomAngle" exact>
+          <Route path="/HandSignal" exact>
             <HandSignal />
           </Route>
           <Route path="/ConvertWeights" exact>

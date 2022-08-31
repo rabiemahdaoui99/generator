@@ -114,12 +114,13 @@ i {
 }
 .dropdown{
   color: white;
+  
 }
 .dropdown-icon{
   color:  rgba(255, 255, 255, 0.5);
   text-align: center;
   margin-top: 19px;
-  padding-right: 10px;
+  padding:0px 0.5rem;
 }
 .dropdown:hover .dropdown-items{
   display: block;
@@ -136,6 +137,20 @@ i {
 }
 .dropdown-item{
   color: #fff;
+}
+.dropdown-item:hover{
+  color: #000;
+  background-color: #fff;
+}
+.dropdown-item:hover .dropdown-item-link{
+  color: #000;
+}
+.dropdown-item-link{
+  color: rgba(255, 255, 255, 0.5);
+}
+.dropdown-item-link:hover{
+  color: #000;
+  background-color: #fff;
 }
 
 
